@@ -24,10 +24,9 @@ class Transcricao {
 
     console.log(this.dna);
 
-    let rna = this.dna.replace ('T', 'U').
-    replace ('G', 'C').
-    replace ('C', 'G'). 
+    let rna = this.dna.replace ('G', 'C').
     replace ('T', 'A').
+    replace ('C', 'G'). 
     replace ('A', 'U');
 
     return (`O DNA é ${this.dna} e o RNA é ${rna.toUpperCase()}.`);
